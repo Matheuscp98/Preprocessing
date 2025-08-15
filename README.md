@@ -1,17 +1,17 @@
-# ⚙️ Preprocessing Impact Analysis
+# ⚙️ Impact of Preprocessing on the Performance and Computational Efficiency 
 
 ## 📝 Description
 
-This repository contains the **Python implementation** used to analyze the impact of different preprocessing strategies on the **predictive performance** and **computational efficiency** of Machine Learning classification models.
+This repository contains the **Python implementation** used to analyze the impact of different preprocessing strategies on the **predictive performance** and **computational efficiency** of Machine Learning models.
 
-The code reproduces the methodology described in the manuscript *Impact of Preprocessing on the Performance and Computational Efficiency of Classification Models: An Analysis of Raw Data, Principal Components, and Factor Analysis*.  
+The code reproduces the methodology from one of the author's manuscripts currently under review.  
 It systematically compares three distinct data construction approaches:
 
-1. **Original Data** — raw dataset without dimensionality reduction.  
-2. **Principal Component Analysis (PCA)** — dimensionality reduction using PCA.  
-3. **Principal Component Factor Analysis (PCFA)** — PCA combined with Factor Analysis, applying Varimax rotation.
+1. **Original Data**: raw dataset without dimensionality reduction.  
+2. **Principal Component Analysis (PCA)**: dimensionality reduction using PCA.  
+3. **Principal Component Factor Analysis (PCFA)**: PCA combined with Factor Analysis, applying Varimax rotation.
 
-Additionally, the code incorporates **Design of Experiments (DOE)** with factorial design to test different combinations of attributes. Ten datasets from various domains are processed, and ten Machine Learning algorithms are evaluated. All models undergo cross-validation and hyperparameter tuning using two different optimization strategies.
+Additionally, the code incorporates **Design of Experiments (DOE)** with factorial design to test different combinations of attributes. Ten datasets from various domains (chemistry, health and medicine, computer science, geosciences, telecommunications, environmental sciences, and materials engineering, among others) are processed, and ten Machine Learning algorithms are evaluated. All models undergo cross-validation and hyperparameter tuning using two different optimization strategies (Optuna and Grid Search).
 
 **Note:** This code focuses on the preprocessing and evaluation stages; it does not include extensive visualization routines.
 
@@ -28,34 +28,28 @@ Additionally, the code incorporates **Design of Experiments (DOE)** with factori
 
 ---
 
+## 📚 Publications
+
+This repository is part of the research study:
+
+-  *(The dataset is from this work. Manuscript currently under review)*
+
+---
+
 ## 📂 Datasets
 
 The repository contains the following datasets in `.csv` format:
 
-- [**breast_cancer_wisconsin.csv**](breast_cancer_wisconsin.csv)  
-- [**burst_header_packet.csv**](burst_header_packet.csv)  
-- [**image_segmentation.csv**](image_segmentation.csv)  
-- [**iranian_churn.csv**](iranian_churn.csv)  
-- [**qsar_biodegradation.csv**](qsar_biodegradation.csv)  
-- [**seismic_bumps.csv**](seismic_bumps.csv)  
-- [**statlog_australian_credit_approval.csv**](statlog_australian_credit_approval.csv)  
-- [**steel_plates_faults.csv**](steel_plates_faults.csv)  
-- [**waveform_database_generator.csv**](waveform_database_generator.csv)  
-- [**wine_quality_red.csv**](wine_quality_red.csv)
-
----
-
-## 📚 Publications
-
-The methodology implemented here is detailed in the following manuscript (currently under review):
-
-- **Impact of Preprocessing on the Performance and Computational Efficiency of Classification Models: An Analysis of Raw Data, Principal Components, and Factor Analysis**  
-  *(Manuscript under review)*
-
-Related publications by the authors include:
-
-- **Multi-objective optimization of CFD simulation costs and quality: Exploring the Pareto frontier** (*Otimização Multiobjetivo de Custos e Qualidade de Simulações de CFD: Explorando a Fronteira de Pareto*)  
-  [Read here](https://proceedings.science/sbpo/sbpo-2024/trabalhos/otimizacao-multiobjetivo-de-custos-e-qualidade-de-simulacoes-de-cfd-explorando-a?lang=pt-br)
+- [**Breast Cancer Wisconsin**](breast_cancer_wisconsin.csv)  
+- [**Burst Header Packet**](burst_header_packet.csv)  
+- [**Image Segmentation**](image_segmentation.csv)  
+- [**Iranian Churn**](iranian_churn.csv)  
+- [**QSAR Biodegradation**](qsar_biodegradation.csv)  
+- [**Seismic Bumps**](seismic_bumps.csv)  
+- [**Statlog Australian Credit Approval**](statlog_australian_credit_approval.csv)  
+- [**Steel Plates Faults**](steel_plates_faults.csv)  
+- [**Waveform Database Generator**](waveform_database_generator.csv)  
+- [**Wine Quality Red**](wine_quality_red.csv)
 
 ---
 
