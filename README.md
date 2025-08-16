@@ -4,8 +4,7 @@
 
 This repository contains the **Python implementation** used to analyze the impact of different **preprocessing strategies** on the **predictive performance** and **computational efficiency** of Machine Learning (ML) models.
 
-The code reproduces the **methodology** from one of the author's manuscripts currently under review.  
-It systematically compares **three distinct data construction approaches**:
+The code systematically compares **three distinct approaches to data construction**:
 
 1. **Original Data**: Raw dataset **without dimensionality reduction**.  
 2. **Principal Component Analysis (PCA)**: **Dimensionality reduction** using PCA.  
