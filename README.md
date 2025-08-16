@@ -32,7 +32,7 @@ Additionally, the code incorporates **Design of Experiments (DOE)** with factori
 
 This repository is part of the research study:
 
--  *(The dataset is from this work. Manuscript currently under review)*
+-  *Manuscript currently under peer review*
 
 ---
 
