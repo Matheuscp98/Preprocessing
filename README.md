@@ -17,6 +17,14 @@ Additionally, the code incorporates **Design of Experiments (DOE)** with **facto
 
 ---
 
+## 📚 Publications
+
+This repository is part of the research study:
+
+-  *Manuscript currently under peer review*
+
+---
+
 ## 🛠️ How to Use
 
 1. **Clone or download** this repository or the [**`script_preprocessing.ipynb`**](script_preprocessing.ipynb) notebook.  
@@ -25,14 +33,6 @@ Additionally, the code incorporates **Design of Experiments (DOE)** with **facto
 4. **Load** your own datasets or use the provided **`.csv` datasets** in this repository.  
 5. **Run** the notebook cells **sequentially** to reproduce the **preprocessing**, **model training**, and **evaluation** pipeline.  
 6. The code is **modular** and **organized into logical blocks** with **detailed comments** for clarity.
-
----
-
-## 📚 Publications
-
-This repository is part of the research study:
-
--  *Manuscript currently under peer review*
 
 ---
 
