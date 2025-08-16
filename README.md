@@ -7,9 +7,9 @@ This repository contains the **Python implementation** used to analyze the impac
 The code reproduces the **methodology** from one of the author's manuscripts currently under review.  
 It systematically compares **three distinct data construction approaches**:
 
-1. **Original Data**: raw dataset **without dimensionality reduction**.  
-2. **Principal Component Analysis (PCA)**: **dimensionality reduction** using PCA.  
-3. **Principal Component Factor Analysis (PCFA)**: PCA combined with **Factor Analysis**, applying **Varimax rotation**.
+1. **Original Data**: Raw dataset **without dimensionality reduction**.  
+2. **Principal Component Analysis (PCA)**: **Dimensionality reduction** using PCA.  
+3. **Principal Component Factor Analysis (PCFA)**: Method that combines *PCA* with *Factor Analysis*, resulting in *PCFA*, and applies Varimax rotation.
 
 Additionally, the code incorporates **Design of Experiments (DOE)** with **factorial design** to test different combinations of attributes. **Ten datasets** from various domains (chemistry, health and medicine, computer science, geosciences, telecommunications, environmental sciences, and materials engineering, among others) are processed, and **ten Machine Learning (ML) algorithms** are evaluated. All models undergo **cross-validation** and **hyperparameter tuning** using two different optimization strategies (**Optuna** and **Grid Search**).
 
@@ -27,7 +27,7 @@ This repository is part of the research study:
 
 ## 🛠️ How to Use
 
-1. **Clone or download** this repository or the [**`script_preprocessing.ipynb`**](script_preprocessing.ipynb) notebook.  
+1. **Clone or download** this repository or the [**Script Preprocessing**](script_preprocessing.ipynb) notebook.  
 2. **Open** the notebook in **Jupyter**.  
 3. **Install** the **required Python libraries** (listed at the beginning of the notebook).  
 4. **Load** your own datasets or use the provided **`.csv` datasets** in this repository.  
